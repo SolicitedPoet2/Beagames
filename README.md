@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-## 📝 Description
+## 📝 Descrição
 
 Beagame é um site de reportagem sobre jogos!
 
@@ -11,7 +11,7 @@ Beagame é um site de reportagem sobre jogos!
 - ⚛️ React
 
 
-## 📦 Key Dependencies
+## 📦 Dependências do projeto
 
 ```
 @emotion/styled: ^11.14.1
@@ -23,7 +23,7 @@ react-dom: ^19.2.0
 react-router-dom: ^7.9.6
 ```
 
-## 🚀 Run Commands
+## 🚀 Comandos
 
 - **dev**: `npm run dev`
 - **build**: `npm run build`
@@ -31,7 +31,7 @@ react-router-dom: ^7.9.6
 - **preview**: `npm run preview`
 
 
-## 📁 Project Structure
+## 📁 Estrutura do projeto
 
 ```
 .
@@ -54,9 +54,9 @@ react-router-dom: ^7.9.6
 └── vite.config.js
 ```
 
-## 🛠️ Development Setup
+## 🛠️ Setup de desenvolvimento
 
 ### Node.js/JavaScript Setup
-1. Install Node.js (v18+ recommended)
-2. Install dependencies: `npm install` or `yarn install`
-3. Start development server: (Check scripts in `package.json`, e.g., `npm run dev`)
+1. Instale Node.js (v18+ recomendado)
+2. Instale dependências: `npm install` ou `yarn install`
+3. Inicie o server de desenvolvimento: `npm run dev`

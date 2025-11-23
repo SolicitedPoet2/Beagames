@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  web:
+    image: httpd:latest
+    ports:
+      - "4540:80"
+    volumes:
+      - ./dist:/usr/local/apache2/htdocs/
+networks:
+  default:
+    external: true
+    name: npm_apps

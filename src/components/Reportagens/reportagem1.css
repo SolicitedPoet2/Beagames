@@ -1,0 +1,88 @@
+.reportagem {
+    min-width: 1280px;
+    min-height: 100vh;
+    max-height: fit-content;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    padding: 30px;
+    max-width: 680px;
+    max-height: 422px;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    line-height: 1.4;
+}
+
+.subtitulo {
+    color: #4f5257;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.publi {
+    max-width: 400px;
+    max-height: 50px;
+    font-size: 15px;
+    color: #4f5257;
+}
+
+.mark-text {
+    color: #e2ba35;
+    font-weight: 750;
+}
+
+.data {
+    font-weight: 400;
+}
+
+.global {
+    max-width: 680px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2123;
+    gap: 35px;
+}
+
+.globo-textual {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.globo-textual2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.titulo-part2 {
+    color: black;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 600;
+}
+.titulo2-part2 {
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: start;
+    font-weight: 600;
+}
+.linha {
+    min-width: 750px;
+    border: #e2ba35 solid 1px;
+}

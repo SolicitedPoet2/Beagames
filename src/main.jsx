@@ -12,8 +12,8 @@ const router = createBrowserRouter([
   { path: "*", element: <NotFound />},
 ])
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  createRoot(document.getElementById('root')).render(
+    <StrictMode>
     <RouterProvider router={router}/>
   </StrictMode>,
 )
